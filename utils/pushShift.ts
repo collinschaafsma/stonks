@@ -6,7 +6,4 @@ export async function pushShift<T>(request: RequestInfo): Promise<T> {
   return body.data
 }
 
-export interface Stonk {
-  title: string
-}
 
