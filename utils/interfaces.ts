@@ -16,3 +16,8 @@ export interface Comment {
   retrieved_on: number
   created_utc: number
 }
+
+export interface Ticker {
+  symbol: string
+  name: string
+}
